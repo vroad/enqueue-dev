@@ -18,7 +18,7 @@ final class FallbackSubscriptionConsumer implements SubscriptionConsumer
     /**
      * @var int
      */
-    private $idleTime = 0;
+    private $idleTime = 1000;
 
     public function __construct()
     {
